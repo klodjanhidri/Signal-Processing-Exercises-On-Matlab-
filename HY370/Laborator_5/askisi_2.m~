@@ -1,0 +1,8 @@
+e=sqrt((1/(power(0.89125,2)))-1);
+A=1/0.17783;
+K=(0.3*pi)/(0.2*pi);
+K1=e/(sqrt(power(A,2)-1));
+N=abs(log10(1/K1)/log10(1/K));
+disp(['order butterworth N= ', num2str(N)]);
+
+OMEGAc=0.2/nthroot(1/(power(0.)))
